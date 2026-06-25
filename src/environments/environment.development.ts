@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  apiUrl: 'http://localhost:8080/api',
+  apiUrl: 'https://pagoya-api-4db9.onrender.com',
   // Los endpoints de IA viven en /ai (no bajo /api).
-  aiUrl: 'http://localhost:8080/ai',
+  aiUrl: 'https://pagoya-api-4db9.onrender.com/ai',
 };
