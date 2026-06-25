@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/core/services/customer.service.ts"],
+  "sourcesContent": ["import { Injectable, inject } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { Observable } from 'rxjs';\nimport { environment } from '../../../environments/environment';\nimport { Customer, UpdateCustomerRequest } from '../../shared/models/customer.model';\n\n@Injectable({ providedIn: 'root' })\nexport class CustomerService {\n  private http = inject(HttpClient);\n  private base = `${environment.apiUrl}/customers`;\n\n  findMe(): Observable<Customer> {\n    return this.http.get<Customer>(`${this.base}/me`);\n  }\n\n  updateMe(body: UpdateCustomerRequest): Observable<Customer> {\n    return this.http.put<Customer>(`${this.base}/me`, body);\n  }\n\n  deleteMe(): Observable<void> {\n    return this.http.delete<void>(`${this.base}/me`);\n  }\n}\n"],
+  "mappings": ";;;;;;;;;;;;AAOM,IAAO,kBAAP,MAAO,iBAAe;EAClB,OAAO,OAAO,UAAU;EACxB,OAAO,GAAG,YAAY,MAAM;EAEpC,SAAM;AACJ,WAAO,KAAK,KAAK,IAAc,GAAG,KAAK,IAAI,KAAK;EAClD;EAEA,SAAS,MAA2B;AAClC,WAAO,KAAK,KAAK,IAAc,GAAG,KAAK,IAAI,OAAO,IAAI;EACxD;EAEA,WAAQ;AACN,WAAO,KAAK,KAAK,OAAa,GAAG,KAAK,IAAI,KAAK;EACjD;;qCAdW,kBAAe;EAAA;4EAAf,kBAAe,SAAf,iBAAe,WAAA,YADF,OAAM,CAAA;;;sEACnB,iBAAe,CAAA;UAD3B;WAAW,EAAE,YAAY,OAAM,CAAE;;;",
+  "names": []
+}

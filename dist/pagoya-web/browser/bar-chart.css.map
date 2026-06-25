@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;d7eb252ac9d2fde17734078110be7cfca700b7d5694581845af72a1ebc1fa217;/Users/henryantoniomendozapuerta/Downloads/pagoya-web/src/app/shared/components/bar-chart/bar-chart.ts"],
+  "sourcesContent": ["\n    .bars { display: flex; flex-direction: column; gap: 14px; }\n    .bar-empty { color: var(--color-text-muted); text-align: center; padding: 20px 0; }\n    .bar-row { display: grid; grid-template-columns: 90px 1fr auto; align-items: center; gap: 12px; }\n    .bar-label { font-size: 0.85rem; color: var(--color-text-2); font-weight: 500; }\n    .bar-track { height: 12px; background: var(--color-surface-alt); border-radius: 999px; overflow: hidden; }\n    .bar-fill { height: 100%; border-radius: 999px; min-width: 2px; transition: width 0.4s ease; }\n    .bar-value { font-size: 0.85rem; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--color-text); }\n  "],
+  "mappings": ";AACI,CAAC;AAAO,WAAS;AAAM,kBAAgB;AAAQ,OAAK;AAAM;AAC1D,CAAC;AAAY,SAAO,IAAI;AAAqB,cAAY;AAAQ,WAAS,KAAK;AAAG;AAClF,CAAC;AAAU,WAAS;AAAM,yBAAuB,KAAK,IAAI;AAAM,eAAa;AAAQ,OAAK;AAAM;AAChG,CAAC;AAAY,aAAW;AAAS,SAAO,IAAI;AAAiB,eAAa;AAAK;AAC/E,CAAC;AAAY,UAAQ;AAAM,cAAY,IAAI;AAAsB,iBAAe;AAAO,YAAU;AAAQ;AACzG,CAAC;AAAW,UAAQ;AAAM,iBAAe;AAAO,aAAW;AAAK,cAAY,MAAM,KAAK;AAAM;AAC7F,CAAC;AAAY,aAAW;AAAS,eAAa;AAAK,wBAAsB;AAAc,SAAO,IAAI;AAAe;",
+  "names": []
+}

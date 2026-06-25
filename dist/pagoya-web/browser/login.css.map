@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/auth/login/login.css"],
+  "sourcesContent": [".auth-form {\n  display: flex;\n  flex-direction: column;\n}\n\n.auth-form-title {\n  font-size: 1.4rem;\n  font-weight: 600;\n  margin-bottom: 4px;\n}\n\n.auth-form-subtitle {\n  color: var(--color-text-muted);\n  font-size: 0.9rem;\n  margin-bottom: 22px;\n}\n\n.full {\n  width: 100%;\n}\n\n.auth-submit {\n  height: 46px;\n  font-size: 0.95rem;\n  font-weight: 600;\n  margin-top: 4px;\n}\n\n.auth-submit mat-spinner {\n  margin: 0 auto;\n}\n\n.auth-submit mat-spinner circle {\n  stroke: #fff;\n}\n\n.auth-form-foot {\n  text-align: center;\n  margin-top: 18px;\n  font-size: 0.9rem;\n  color: var(--color-text-muted);\n}\n\n.auth-form-foot a {\n  color: var(--color-primary);\n  font-weight: 600;\n}\n"],
+  "mappings": ";AAAA,CAAC;AACC,WAAS;AACT,kBAAgB;AAClB;AAEA,CAAC;AACC,aAAW;AACX,eAAa;AACb,iBAAe;AACjB;AAEA,CAAC;AACC,SAAO,IAAI;AACX,aAAW;AACX,iBAAe;AACjB;AAEA,CAAC;AACC,SAAO;AACT;AAEA,CAAC;AACC,UAAQ;AACR,aAAW;AACX,eAAa;AACb,cAAY;AACd;AAEA,CAPC,YAOY;AACX,UAAQ,EAAE;AACZ;AAEA,CAXC,YAWY,YAAY;AACvB,UAAQ;AACV;AAEA,CAAC;AACC,cAAY;AACZ,cAAY;AACZ,aAAW;AACX,SAAO,IAAI;AACb;AAEA,CAPC,eAOe;AACd,SAAO,IAAI;AACX,eAAa;AACf;",
+  "names": []
+}

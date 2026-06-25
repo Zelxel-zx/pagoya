@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["angular:styles/component:css;86667db7a444b5a49dc2e871ca3265abd6df5c1dfb774aa572d782500bf0ff32;/Users/henryantoniomendozapuerta/Downloads/pagoya-web/src/app/features/accounts/deposit-dialog/deposit-dialog.ts"],
+  "sourcesContent": ["\n    .account { color: var(--color-text-muted); margin-bottom: 12px; font-family: monospace; }\n    .full { width: 100%; }\n  "],
+  "mappings": ";AACI,CAAC;AAAU,SAAO,IAAI;AAAqB,iBAAe;AAAM,eAAa;AAAW;AACxF,CAAC;AAAO,SAAO;AAAM;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/pipes/soles.pipe.ts"],
+  "sourcesContent": ["import { Pipe, PipeTransform } from '@angular/core';\nimport { formatNumber } from '@angular/common';\n\n@Pipe({ name: 'soles' })\nexport class SolesPipe implements PipeTransform {\n  transform(value: number | null | undefined, symbol: string = 'S/'): string {\n    const amount = value ?? 0;\n    return `${symbol} ${formatNumber(amount, 'en-US', '1.2-2')}`;\n  }\n}\n"],
+  "mappings": ";;;;;;;;;;AAIM,IAAO,YAAP,MAAO,WAAS;EACpB,UAAU,OAAkC,SAAiB,MAAI;AAC/D,UAAM,SAAS,SAAS;AACxB,WAAO,GAAG,MAAM,IAAI,aAAa,QAAQ,SAAS,OAAO,CAAC;EAC5D;;qCAJW,YAAS;EAAA;oFAAT,YAAS,MAAA,KAAA,CAAA;;;sEAAT,WAAS,CAAA;UADrB;WAAK,EAAE,MAAM,QAAO,CAAE;;;",
+  "names": []
+}

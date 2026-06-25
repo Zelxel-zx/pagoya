@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/features/accounts/account-form/account-form.css"],
+  "sourcesContent": [".type-options {\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n  margin-bottom: 24px;\n}\n\n.type-option {\n  display: flex;\n  align-items: center;\n  gap: 12px;\n  padding: 16px;\n  border: 1px solid var(--color-border);\n  border-radius: var(--radius);\n  cursor: pointer;\n  transition: border-color 0.15s ease, background 0.15s ease;\n}\n\n.type-option:hover {\n  border-color: var(--color-primary);\n  background: var(--color-primary-light);\n}\n\n.type-option mat-icon {\n  color: var(--color-primary);\n}\n\n.type-info {\n  display: flex;\n  flex-direction: column;\n}\n\n.type-name {\n  font-weight: 600;\n  color: var(--color-text);\n}\n\n.type-desc {\n  font-size: 0.85rem;\n  color: var(--color-text-muted);\n}\n"],
+  "mappings": ";AAAA,CAAC;AACC,WAAS;AACT,kBAAgB;AAChB,OAAK;AACL,iBAAe;AACjB;AAEA,CAAC;AACC,WAAS;AACT,eAAa;AACb,OAAK;AACL,WAAS;AACT,UAAQ,IAAI,MAAM,IAAI;AACtB,iBAAe,IAAI;AACnB,UAAQ;AACR,cAAY,aAAa,MAAM,IAAI,EAAE,WAAW,MAAM;AACxD;AAEA,CAXC,WAWW;AACV,gBAAc,IAAI;AAClB,cAAY,IAAI;AAClB;AAEA,CAhBC,YAgBY;AACX,SAAO,IAAI;AACb;AAEA,CAAC;AACC,WAAS;AACT,kBAAgB;AAClB;AAEA,CAAC;AACC,eAAa;AACb,SAAO,IAAI;AACb;AAEA,CAAC;AACC,aAAW;AACX,SAAO,IAAI;AACb;",
+  "names": []
+}

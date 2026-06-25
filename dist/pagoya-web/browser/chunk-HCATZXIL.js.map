@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/shared/validators/pagoya-validators.ts"],
+  "sourcesContent": ["import { AbstractControl, ValidationErrors, ValidatorFn } from '@angular/forms';\n\nexport function dniValidator(): ValidatorFn {\n  return (control: AbstractControl): ValidationErrors | null => {\n    if (!control.value) return null;\n    return /^\\d{8}$/.test(control.value) ? null : { dni: true };\n  };\n}\n\nexport function phoneValidator(): ValidatorFn {\n  return (control: AbstractControl): ValidationErrors | null => {\n    if (!control.value) return null;\n    return /^\\d{9}$/.test(control.value) ? null : { phone: true };\n  };\n}\n\nexport function minAmountValidator(min: number): ValidatorFn {\n  return (control: AbstractControl): ValidationErrors | null => {\n    if (control.value == null || control.value === '') return null;\n    return Number(control.value) >= min ? null : { minAmount: { min } };\n  };\n}\n"],
+  "mappings": ";AAEM,SAAU,eAAY;AAC1B,SAAO,CAAC,YAAqD;AAC3D,QAAI,CAAC,QAAQ;AAAO,aAAO;AAC3B,WAAO,UAAU,KAAK,QAAQ,KAAK,IAAI,OAAO,EAAE,KAAK,KAAI;EAC3D;AACF;AAEM,SAAU,iBAAc;AAC5B,SAAO,CAAC,YAAqD;AAC3D,QAAI,CAAC,QAAQ;AAAO,aAAO;AAC3B,WAAO,UAAU,KAAK,QAAQ,KAAK,IAAI,OAAO,EAAE,OAAO,KAAI;EAC7D;AACF;AAEM,SAAU,mBAAmB,KAAW;AAC5C,SAAO,CAAC,YAAqD;AAC3D,QAAI,QAAQ,SAAS,QAAQ,QAAQ,UAAU;AAAI,aAAO;AAC1D,WAAO,OAAO,QAAQ,KAAK,KAAK,MAAM,OAAO,EAAE,WAAW,EAAE,IAAG,EAAE;EACnE;AACF;",
+  "names": []
+}
